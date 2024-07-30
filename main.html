@@ -8,8 +8,21 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+
+   <script>
+        // Display the confirmation dialog
+        var userResponse = confirm("Do you want to proceed?");
+        
+        // Check the user's response
+        if (userResponse) {
+            // User clicked OK
+            alert("You clicked OK. Proceeding...");
+        } else {
+            // User clicked Cancel
+            alert("You clicked Cancel. Exiting...");
+        }
+    </script>
 
 </body>
 
